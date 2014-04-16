@@ -1,0 +1,1 @@
+namespace scala mmf.hintlist 
