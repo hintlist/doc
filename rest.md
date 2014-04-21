@@ -12,6 +12,7 @@ HintList REST API Documentation
 | DELETE | /events/types/{type} | - | - | /events/types/movies | - | - | Удалить тип мероприятия |
 | GET | /events/{type}/{page} | - | [{event_1},...] | /events/movies/1 | [{event_structure}] | - | Получение n-ной страницы списка мероприятий одного типа |
 | GET | /events/{type}/{name} | - | {event_structure} | /events/movies/need-for-speed | {event_structure} | - | Получение описания одного мероприятия |
+| GET | /lucky/ | - | {event_structure} | /lucky/ | {event_structure} | - | Получение описания одного мероприятия или места РАНДОМНО|
 | PUT | /events/{type}/{name} | {event_structure} | {event_structure} | /events/movies/need-for-speed | {event_structure} | {event_structure} | Обновить информацию о мероприятии |
 | DELETE | /events/{type}/{name} | - | - | /events/movies/need-for-speed | - | - | Удалить мероприятие |
 | GET |  /places/  | - | [{place_1}, ... ] | /places/ | [{place_structure}] | - | Получение 1 страницу списка всех новых мест |
@@ -33,7 +34,7 @@ HintList REST API Documentation
 | GET | /{username}/wishlist/{events OR places}/ | - | [{(event OR place)_1}, ...] | /masha/wishlist/events/ | [{event_structure}] | - | Получение списка или мест, или мероприятий, которые отмечены "Хочу попробовать"|
 | POST | /{username}/wishlist/ | {(event OR place)} | {(event OR place)} | /masha/wishlist/ | {(event OR place)} | {(event OR place)} | Добавление в список места или мероприятия, которое отмечено "Хочу попробовать"|
 | DELETE | /{username}/wishlist/{events OR places}/{type}/{name} | - | - | /masha/wishlist/places/cafe/Olivio | - | - | Удалить место или мероприятие из списка, отмеченных "Хочу попробовать" |
-| GET | /home/{latitude}/{longitude}/{zoom} | - | [{event OR place}, ...] | /home/28.234564543/34.213465443245/14 | [{event_structure}, {place_structure}] | - | Получение списка новых мероприятий и мест по местоположению и масштабу карты на экране|
+| GET | /map/{latitude}/{longitude}/{zoom} | - | [{event OR place}, ...] | /home/28.234564543/34.213465443245/14 | [{event_structure}, {place_structure}] | - | Получение списка новых мероприятий и мест по местоположению и масштабу карты на экране|
 | GET | /{username}/attendedlist/ | - | [{(event OR place)_1}, ...] | /masha/attendedlist/ | [{event_structure}, {place_structure}] | - | Получение списка или мест, или мероприятий, которые отмечены "Попробовал"|
 | GET | /{username}/attendedlist/{events OR places}/ | - | [{(event OR place)_1}, ...] | /masha/attendedlist/events/ | [{event_structure}] | - | Получение списка или мест, или мероприятий, которые отмечены "Попробовал"|
 | POST | /{username}/attendedlist/ | {(event OR place)} | {(event OR place)} | /masha/attendedlist/ | {(event OR place)} | {(event OR place)} | Добавление в список места или мероприятия, которое отмечено "Попробовал"|
