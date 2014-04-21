@@ -55,11 +55,8 @@ service EventsManager {
 	Event findByKey(                      //поиск мероприятия по ключу(уникальному имени, которое дает сервер) и получение его описания
 		1: TEventKey key
 	);
-	Event find(                           //поиск и вывод мероприятия
-		1: TTypeKey typeKey
-	)
 	void delete(                         //удаление мероприятия
-		1: TTypeKey typeKey
+		1: TEventKey typeKey
 	)
 
 	
@@ -75,6 +72,9 @@ service TypesManager{
 	list<EventType> findAll(             //поиск и вывод всех типов мероприятий
 		1: int page,
 		2: int count
+	)
+	EventType findByKey(                //поиск информации о типе мероприятия
+		1:TTypeKey key
 	)
 		void delete(                     //удалить тип мероприятия
 		1: TTypeKey key
