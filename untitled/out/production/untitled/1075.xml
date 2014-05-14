@@ -1,0 +1,104 @@
+<table align="center" xmlns:x="http://www.w3.org/1999/xhtml" border="1" cellpadding="0" cellspacing="0" style="width: 945px" width="944">
+	<colgroup>
+	</colgroup>
+	<tbody>
+		<tr>
+			<td height="98" rowspan="4" style="height:98px;width:148px;">
+				<span style="font-size:14px;"><span style="color:#000080;"><strong>ПРЕДМЕТ</strong></span></span></td>
+			<td rowspan="4" style="width:108px;">
+				<p>
+					<span style="font-size:14px;"><span style="color:#000080;"><strong>Всего зарегистрировано</strong></span></span><span style="font-size:14px;"><span style="color:#000080;"><strong>(чел.</strong></span></span></p>
+			</td>
+        </tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Белорусский язык</strong></td>
+			<td style="width:108px;">
+				<strong>33 564</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Русский язык</strong></td>
+			<td style="width:108px;">
+				<strong>83 829</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Физика</strong></td>
+			<td style="width:108px;">
+				<strong>35 756</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Математика</strong></td>
+			<td style="width:108px;">
+				<strong>76 021</strong></td>
+        </tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Химия</strong></td>
+			<td style="width:108px;">
+				<strong>14 705</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Биология</strong></td>
+			<td style="width:108px;">
+				<strong>24 658</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Английский язык</strong></td>
+			<td style="width:108px;">
+				<strong>23 389</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Немецкий язык</strong></td>
+			<td style="width:108px;">
+				<strong>3 974</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Испанский язык</strong></td>
+			<td style="width:108px;">
+				<strong>248</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Французский язык</strong></td>
+			<td style="width:108px;">
+				<strong>928</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>История Беларуси</strong></td>
+			<td style="width:108px;">
+				<strong>19 174</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Обществоведение</strong></td>
+			<td style="width:108px;">
+				<strong>8 250</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>География</strong></td>
+			<td style="width:108px;">
+				<strong>1 899</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				<strong>Всемирная история</strong></td>
+			<td style="width:108px;">
+				<strong>1 491</strong></td>
+		</tr>
+		<tr>
+			<td height="22" style="height:22px;width:148px;">
+				Резервный день</td>
+			<td style="width:108px;">
+				999</td>
+		</tr>
+	</tbody>
+</table>
