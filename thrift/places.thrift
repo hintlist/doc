@@ -20,7 +20,7 @@ struct Place {
 	2: string name;
 	3: string shortDescription;
 	4: string fullDescription;
-	5: TypeKey typeKey;
+	5: TTypeKey typeKey;
 	6: int rate;
 	7: int myRate;
 	8: int timestamp;
